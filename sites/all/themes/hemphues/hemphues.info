@@ -1,0 +1,26 @@
+name = Hemp Hues
+description = Official Hemp Hues theme.
+core = 7.x
+
+regions[page_top] = Page Top
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[featured_slideshow] = Featured Slideshow
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[footer] = Footer
+regions[page_bottom] = Page Bottom
+
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/bootstrap-theme.css
+stylesheets[all][] = css/styles.css
+stylesheets[print][] = css/print.css
+
+scripts[] = js/jquery-2.1.4.js
+scripts[] = js/bootstrap.js
+scripts[] = js/node_modules/slideout/dist/slideout.js
+scripts[] = js/lodash.js
+scripts[] = js/hero-slider.js
+scripts[] = js/scripts.js
